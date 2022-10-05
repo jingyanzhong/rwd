@@ -469,7 +469,12 @@ html {
 		margin: 0 10px;
 	}
 	.avatarList li{
+		text-align: center;
+		flex-direction: column;
 		padding: 0 20px 0 0;
+	}
+	.avatarList img{
+		margin: 0 auto;
 	}
 }
 @media(max-width:767px){
@@ -479,6 +484,11 @@ html {
 	.avatarList li{
 		width: 100%;
 		padding: 0;
+		flex-direction: row;
+		text-align: start;
+	}
+	.avatarList img{
+		margin-right: 13px;
 	}
 	.avatarText span{
 		margin-bottom: 30px;
@@ -578,6 +588,11 @@ html {
 	.locationContent form{
 		width: 98%;
 		margin: 0 1% 30px 1%;
+	}
+	.locationContent .map{
+		width: 98%;
+		padding-right: 0;
+		margin-bottom: 16px;
 	}
 }
 
